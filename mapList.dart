@@ -68,9 +68,9 @@ final List<Map<String, dynamic>> mapList = [
 
 // Class Person
 class Person {
-  final String name;
-  final int age;
-  final bool isMarried;
+  final String? name;
+  final int? age;
+  final bool? isMarried;
   final List<String> hobbies;
 
   Person(this.name, this.age, this.isMarried, this.hobbies);
